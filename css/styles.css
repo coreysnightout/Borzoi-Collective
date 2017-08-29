@@ -1,5 +1,6 @@
 body {
-  margin: 0; }
+  margin: 0;
+  font-family: sans-serif; }
 
 #navbar-area {
   background-color: white;
@@ -35,5 +36,40 @@ body {
   height: auto;
   margin-top: 20px;
   align-self: center; }
+
+#products-area {
+  display: flex;
+  margin: 5px;
+  margin-top: 20px;
+  justify-content: center; }
+
+.product-card {
+  width: 45%;
+  height: 25%;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 3px;
+  border: 2px solid #e3e3e3;
+  margin-left: 2%;
+  margin-right: 2%; }
+
+.tape1 {
+  margin-top: 15px;
+  width: 80%;
+  height: auto;
+  display: flex;
+  align-self: center; }
+
+.product-info {
+  color: black;
+  flex-direction: column;
+  align-self: center;
+  margin-top: 10px; }
+  .product-info h2, .product-info h5, .product-info p {
+    margin: 5px;
+    margin-top: 8px; }
 
 /*# sourceMappingURL=styles.css.map */
