@@ -1,0 +1,39 @@
+body {
+  margin: 0; }
+
+#navbar-area {
+  background-color: white;
+  border-bottom: 1.5px solid lightgrey;
+  width: 100vw;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  #navbar-area .nav-logo img {
+    width: 50px;
+    height: auto;
+    margin-left: 15px;
+    display: flex; }
+
+.container-bars {
+  flex-direction: row;
+  justify-content: space-around; }
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 4px;
+  border-radius: 5px;
+  background-color: lightgrey;
+  margin: 8px 15px; }
+
+#logo-area {
+  display: flex;
+  justify-content: center; }
+
+.main-photo {
+  width: 90%;
+  height: auto;
+  margin-top: 20px;
+  align-self: center; }
+
+/*# sourceMappingURL=styles.css.map */
