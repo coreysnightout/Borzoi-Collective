@@ -1,13 +1,5 @@
 $(document).ready(function() {
 
-  // $(".container-bars").hide();
-  //
-  // $(".nav-logo").click(function() {
-  //   $(".container-bars").slideToggle("slow", function(){
-  //
-  //   });
-  // });
-
   $(".dropdown").hide();
 
   $(".container-bars").click(function() {
@@ -20,3 +12,14 @@ $(document).ready(function() {
     $(".dropdown").hide();
   });
 });
+
+
+
+
+// $(".container-bars").hide();
+//
+// $(".nav-logo").click(function() {
+//   $(".container-bars").slideToggle("slow", function(){
+//
+//   });
+// });
