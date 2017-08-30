@@ -9,7 +9,7 @@ $background-color: #e3e3e3;
 
 .product-card {
   width: 45%;
-  height: 25%;
+  height: 220;
   display: flex;
   background-color: white;
   flex-direction: column;
@@ -36,8 +36,17 @@ $background-color: #e3e3e3;
   align-self: center;
   margin-top: 10px;
 
-  h2, h5, p {
+  h3, h5, p {
     margin: 5px;
     margin-top: 8px;
+  }
+
+  h5 {
+    color: grey;
+  }
+
+  h3 {
+    text-decoration: underline;
+    cursor: crosshair;
   }
 }
