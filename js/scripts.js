@@ -3,14 +3,15 @@ $(document).ready(function() {
   $(".dropdown").hide();
 
   $(".container-bars").click(function() {
-    $(".dropdown").slideToggle();
+    $(".dropdown").fadeToggle();
     // $(".container-bars").hide();
   });
 
   $(".dropdown").click(function() {
     // $(".container-bars").slideToggle();
-    $(".dropdown").hide();
+    $(".dropdown").fade();
   });
+
 });
 
 

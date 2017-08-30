@@ -1,0 +1,73 @@
+@font-face {
+    font-family: borzoiFont;
+    src: url('../fonts/leto.otf');
+}
+
+@font-face {
+    font-family: borzoiFontSkinny;
+    src: url('../fonts/Ubuntu-L.ttf');
+}
+
+@font-face {
+    font-family: borzoiFontSkinny;
+    src: url('../fonts/Ubuntu-L.ttf');
+}
+
+$background-color: #e3e3e3;
+
+#about-area {
+  display: flex;
+  align-items: center;
+}
+
+.about-title {
+  font-family: borzoiFont;
+  border-bottom: 1.5px solid $background-color;
+  padding-bottom: 5px;
+  margin-right: 15px;
+  margin-left: 15px;
+  width: 90%;
+}
+
+.about-info {
+  font-family: borzoiFontSkinny;
+  text-align: justify;
+  width: 90%;
+  font-size: 14px;
+}
+
+.about-images {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+}
+
+.fam {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  // display: flex;
+  @include tablet {
+    width: 40%;
+    display: flex;
+    align-self: flex-start;
+    margin: 5%;
+  }
+}
+
+.fam2 {
+  display: none;
+  @include tablet {
+    display: block;
+    display: flex;
+    width: 40%;
+    align-self: flex-end;
+    margin: 5%;
+  }
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

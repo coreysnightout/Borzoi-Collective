@@ -8,12 +8,49 @@
     src: url('../fonts/Ubuntu-L.ttf');
 }
 
+
+// $tablet-width: "(min-width: 650px) and (max-width: 1023px)";
+// $desktop-width: "(min-width: 1024px)";
+
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+.video {
+  display: none;
+
+  @include tablet {
+    display: block;
+    display: flex;
+    justify-content: center;
+    margin: 2.5%;
+  }
+}
+
+.main-photo2 {
+  width: 40%;
+  height: auto;
+  align-self: flex-end;
+}
+
 $background-color: #e3e3e3;
 
 .product-title {
   margin-left: 20px;
   font-family: borzoiFont;
   border-bottom: 1px solid $background-color;
+  margin-right: 20px;
 }
 
 #products-area {
@@ -39,6 +76,20 @@ $background-color: #e3e3e3;
   // box-shadow: 1px 1px 5px grey;
   margin-left: 2%;
   margin-right: 2%;
+
+  @include tablet {
+    width: 20%;
+  }
+
+  @include desktop {
+    width: 20%;
+  }
+}
+
+.main-photo {
+  @include tablet {
+    display: none;
+  }
 }
 
 .tape1 {
