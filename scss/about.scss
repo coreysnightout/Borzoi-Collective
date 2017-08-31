@@ -34,37 +34,16 @@ $background-color: #e3e3e3;
   text-align: justify;
   width: 90%;
   font-size: 14px;
+  // margin-right: 15px;
+  // margin-left: 15px;
 }
 
 .about-images {
-  justify-content: space-around;
+  align-items: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
-.fam {
-  width: 100%;
-  display: flex;
-  align-self: center;
-  // display: flex;
-  @include tablet {
-    width: 40%;
-    display: flex;
-    align-self: flex-start;
-    margin: 5%;
-  }
-}
-
-.fam2 {
-  display: none;
-  @include tablet {
-    display: block;
-    display: flex;
-    width: 40%;
-    align-self: flex-end;
-    margin: 5%;
-  }
-}
 
 .about {
   display: flex;
