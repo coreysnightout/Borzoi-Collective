@@ -1,0 +1,46 @@
+@font-face {
+    font-family: borzoiFont;
+    src: url('../fonts/leto.otf');
+}
+
+@font-face {
+    font-family: borzoiFontSkinny;
+    src: url('../fonts/Ubuntu-L.ttf');
+}
+
+@font-face {
+    font-family: borzoiFontSkinny;
+    src: url('../fonts/Ubuntu-L.ttf');
+}
+
+
+#footer-area {
+  margin-top: 35px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  background-color: black;
+  width: 100vw;
+  height: 250px;
+}
+
+.footer-list {
+  color: white;
+  font-family: borzoiFontSkinny;
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 12px;
+  margin-top: 30.5px;
+}
+
+.foot-pic1, .foot-pic2, .foot-pic3, .foot-pic4 {
+  width: 30px;
+  height: auto;
+  margin: 5px;
+}
+
+.foot-pic1:hover, .foot-pic2:hover, .foot-pic3:hover, .foot-pic4:hover {
+  transform: scale(.85);
+}

@@ -50,3 +50,34 @@ $background-color: #e3e3e3;
   flex-direction: column;
   align-items: center;
 }
+
+.tape-ill {
+  width: 90vw;
+  height: auto;
+  @include tablet {
+    display: none;
+  }
+}
+
+.tablet-pics-about {
+  display: none;
+  @include tablet {
+    display: block;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.tape-ill2 {
+  width: 40%;
+  height: 100%;
+  align-self: flex-start;
+  margin-right: 5%;
+}
+
+.crew-sq {
+  width: 40%;
+  height: 100%;
+  align-self: flex-start;
+  margin-left: 5%;
+}
